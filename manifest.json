@@ -1,0 +1,15 @@
+{
+  "name": "Url QR Code Generator",
+  "description": "Generates QR Code for Browsers active tab.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab"],
+  "action": {
+    "default_icon": { "16": "qr-code-16.png", "24": "qr-code-24.png" },
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "qr-code-16.png",
+    "24": "qr-code-24.png"
+  }
+}
